@@ -2,7 +2,7 @@
 We work with a Black and White photo here. The size of it should be 800 columns and 600 rows.
 
 ### Reading Image
-Image is read using MATLAB code given above. Hexadecimal values are used.
+Image is read using MATLAB code **'WriteToTxt.m'** given above. Hexadecimal values are used.
 
 ### Processing the Data
 
@@ -20,7 +20,7 @@ Update stage :  We take input values and output address in the Update Register, 
 The output of the module sharpens the image but also halves the brightness. This can be easily fixed in MATLAB, during image reconstruction we can multiply the image array by 2 to fix it. (It is shown here in the given images)
 
 ### Reconstructing the Image
-The output memory is read and the values of the pixels (in hexadecimal) are arranged in an array and shown as image.
+The output memory is read and the values of the pixels (in hexadecimal) are arranged in an array and shown as image, using **'ReadFromHex.m'** file.
 
 ### Running Simulations
 The **'BWPaddedPic.hex'** file has the 8bit pixel values for a 800columns and 600row , black and white version of the **"AwkwardDoge.PNG'** image file. (Its screenshot is given, named **'original_BW_pic.png'**) 
