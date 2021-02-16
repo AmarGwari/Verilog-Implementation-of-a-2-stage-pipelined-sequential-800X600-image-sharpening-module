@@ -14,7 +14,7 @@ Update stage :  We take input values and output address in the Update Register, 
 |-1|-1|-1|
 |--|--|--|
 |-1|9|-1|
-|--|-|--|
+|--|--|--|
 |-1|-1|-1|
 
 #### Current problem?
