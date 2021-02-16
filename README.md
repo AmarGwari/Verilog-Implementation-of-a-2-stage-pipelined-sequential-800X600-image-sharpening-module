@@ -1,0 +1,1 @@
+# Verilog-Implementation-of-a-2-stage-pipelined-sequential-800X600-image-sharpening-module
